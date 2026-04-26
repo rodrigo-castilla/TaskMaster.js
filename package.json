@@ -1,0 +1,23 @@
+{
+  "name": "taskmaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:backend": "cd Backend && npm run migrate",
+    "populate:db": "cd Backend && npm run populate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigo-castilla/TaskMaster.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rodrigo-castilla/TaskMaster.js/issues"
+  },
+  "homepage": "https://github.com/rodrigo-castilla/TaskMaster.js#readme"
+}
